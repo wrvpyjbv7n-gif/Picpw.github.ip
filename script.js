@@ -215,4 +215,3 @@ section {
     section {
         padding: 20px 15px;
     }
-}
