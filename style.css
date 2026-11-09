@@ -1,293 +1,330 @@
-<!DOCTYPE html>
-
-<html lang="th">
-
-<head>
-
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="description" content="Portfolio ของนายธนกร ระวัง เพื่อเข้าศึกษาต่อคณะนิติศาสตร์">
-
-    <title>Portfolio | Thanakorn Rawang</title>
-
-    <link rel="stylesheet" href="style.css">
-
-</head>
-
-<body>
-
-    <!-- ส่วนหัวของเว็บไซต์ -->
-
-    <header>
-
-        <h1>PORTFOLIO</h1>
-
-        <h2>THANAKORN RAWANG</h2>
-
-        <p>แฟ้มสะสมผลงานเพื่อเข้าศึกษาต่อคณะนิติศาสตร์</p>
-
-        <p>มหาวิทยาลัยทักษิณ วิทยาเขตสงขลา</p>
-
-    </header>
-
-    <!-- ส่วนเกี่ยวกับตัวเอง -->
-
-    <section id="about">
-
-        <img src="profile.jpg" alt="รูปโปรไฟล์"
-
-        class="profile-img">
-
-        <h2>ABOUT ME | ประวัติส่วนตัว</h2>
-
-        <p>ชื่อ-นามสกุล : นายธนกร ระวัง</p>
-
-        <p>สถานศึกษา : โรงเรียนทุ่งใหญ่เฉลิมราชอนุสรณ์ รัชมังคลาภิเษก</p>
-
-        <p>ระดับการศึกษา : มัธยมศึกษาปีที่ 6</p>
-
-        <p>ความสนใจ : กฎหมาย กระบวนการยุติธรรม และสิทธิเสรีภาพของประชาชน</p>
-
-    </section>
-
-    <!-- ส่วนประวัติการศึกษา -->
-
-    <section id="education">
-
-        <h2>EDUCATION | ประวัติการศึกษา</h2>
-
-        <div class="card">
-
-            <h3>ระดับมัธยมศึกษาตอนปลาย</h3>
-
-            <p>โรงเรียนทุ่งใหญ่เฉลิมราชอนุสรณ์ รัชมังคลาภิเษก</p>
-
-            <p>เกรดเฉลี่ย : [ระบุเกรดเฉลี่ย]</p>
-
-            <p>แผนการเรียน : [ระบุแผนการเรียน]</p>
-
-        </div>
-
-        <div class="card">
-
-            <h3>ระดับมัธยมศึกษาตอนต้น</h3>
-
-            <p>โรงเรียนทุ่งใหญ่เฉลิมราชอนุสรณ์ รัชมังคลาภิเษก</p>
-
-            <p>เกรดเฉลี่ย : [ระบุเกรดเฉลี่ย]</p>
-
-        </div>
-
-    </section>
-
-    <!-- ส่วนกิจกรรมและผลงาน -->
-
-    <section id="projects">
-
-        <h2>ACTIVITIES | กิจกรรมและผลงาน</h2>
-
-        <div class="card">
-
-            <h3>กิจกรรมด้านจิตอาสา</h3>
-
-            <p>
-
-                การเข้าร่วมกิจกรรมเพื่อส่วนรวม
-
-                ฝึกความรับผิดชอบ การเสียสละ
-
-                และการทำงานร่วมกับผู้อื่น
-
-                ตระหนักถึงการมีส่วนร่วมในการพัฒนาสังคม
-
-            </p>
-
-        </div>
-
-        <div class="card">
-
-            <h3>กิจกรรมด้านวิชาการ</h3>
-
-            <p>
-
-                การเข้าร่วมกิจกรรมทางวิชาการ
-
-                เพื่อพัฒนาความรู้ ความสามารถ
-
-                การคิดวิเคราะห์ และการแก้ไขปัญหาอย่างเป็นระบบ
-
-            </p>
-
-        </div>
-
-        <div class="card">
-
-            <h3>กิจกรรมด้านการทำงานร่วมกับผู้อื่น</h3>
-
-            <p>
-
-                เรียนรู้การทำงานเป็นทีม
-
-                การรับฟังความคิดเห็นที่แตกต่าง
-
-                การแบ่งหน้าที่ และการรับผิดชอบต่อหน้าที่ของตนเอง
-
-            </p>
-
-        </div>
-
-        <div class="card">
-
-            <h3>กิจกรรมส่งเสริมคุณธรรมและจริยธรรม</h3>
-
-            <p>
-
-                เรียนรู้การเป็นผู้มีคุณธรรม
-
-                เคารพกฎระเบียบ มีวินัย
-
-                และตระหนักถึงการอยู่ร่วมกันในสังคมอย่างสงบสุข
-
-            </p>
-
-        </div>
-
-    </section>
-
-    <!-- ความสามารถและทักษะ -->
-
-    <section id="skills">
-
-        <h2>SKILLS | ความสามารถและทักษะ</h2>
-
-        <div class="card">
-
-            <h3>ทักษะด้านการคิดวิเคราะห์</h3>
-
-            <ul>
-
-                <li>การคิดอย่างมีเหตุผลและเป็นระบบ</li>
-
-                <li>การวิเคราะห์ปัญหาและหาแนวทางแก้ไข</li>
-
-                <li>การพิจารณาข้อมูลจากข้อเท็จจริง</li>
-
-                <li>ความละเอียดรอบคอบ</li>
-
-            </ul>
-
-        </div>
-
-        <div class="card">
-
-            <h3>ทักษะด้านกฎหมายและสังคม</h3>
-
-            <ul>
-
-                <li>มีความสนใจเกี่ยวกับกฎหมายและกระบวนการยุติธรรม</li>
-
-                <li>ตระหนักถึงสิทธิและหน้าที่ของพลเมือง</li>
-
-                <li>เคารพความคิดเห็นและสิทธิของผู้อื่น</li>
-
-                <li>ยึดมั่นในความถูกต้องและความเป็นธรรม</li>
-
-            </ul>
-
-        </div>
-
-        <div class="card">
-
-            <h3>ทักษะด้านการทำงาน</h3>
-
-            <ul>
-
-                <li>ความรับผิดชอบและมีระเบียบวินัย</li>
-
-                <li>การทำงานร่วมกับผู้อื่น</li>
-
-                <li>การวางแผนและจัดการเวลา</li>
-
-                <li>ความอดทนและความมุ่งมั่น</li>
-
-            </ul>
-
-        </div>
-
-    </section>
-
-    <!-- เหตุผลในการเลือกศึกษาต่อ -->
-
-    <section id="motivation">
-
-        <h2>MY MOTIVATION</h2>
-
-        <p>
-
-            ข้าพเจ้ามีความสนใจในศาสตร์ด้านกฎหมาย
-
-            เนื่องจากกฎหมายเป็นเครื่องมือสำคัญในการรักษาความสงบเรียบร้อย
-
-            คุ้มครองสิทธิและเสรีภาพของประชาชน
-
-            รวมถึงสร้างความเป็นธรรมให้แก่สังคม
-
-            ข้าพเจ้าจึงมีความมุ่งมั่นที่จะศึกษาต่อในคณะนิติศาสตร์
-
-            เพื่อพัฒนาความรู้ ความสามารถ และทักษะทางกฎหมาย
-
-            ให้สามารถนำไปใช้ประโยชน์ต่อสังคมและประเทศชาติในอนาคต
-
-        </p>
-
-    </section>
-
-    <!-- เป้าหมายในอนาคต -->
-
-    <section id="goal">
-
-        <h2>MY GOAL | เป้าหมายในอนาคต</h2>
-
-        <p>
-
-            มุ่งมั่นเข้าศึกษาต่อคณะนิติศาสตร์
-
-            มหาวิทยาลัยทักษิณ วิทยาเขตสงขลา
-
-            เพื่อพัฒนาความรู้ความสามารถด้านกฎหมาย
-
-            และต่อยอดสู่การประกอบอาชีพนักกฎหมาย
-
-            เป็นบุคลากรที่ยึดมั่นในความถูกต้อง
-
-            ความยุติธรรม และเป็นที่พึ่งให้แก่ประชาชน
-
-        </p>
-
-    </section>
-
-    <!-- ส่วนติดต่อและลิขสิทธิ์ -->
-
-    <footer>
-
-        <h2>CONTACT</h2>
-
-        <p>Email : [ระบุอีเมลของคุณ]</p>
-
-        <p>
-
-            &copy; <span id="year"></span>
-
-            THANAKORN RAWANG. All rights reserved.
-
-        </p>
-
-    </footer>
-
-    <script src="script.js"></script>
-
-</body>
-
-</html>
+/* ===== ตั้งค่าพื้นฐาน ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Prompt", "Noto Sans Thai", Arial, sans-serif;
+    line-height: 1.7;
+    color: #1f2937;
+    background: #f5f7fb;
+}
+
+/* ===== ตัวแปรสี ===== */
+:root {
+    --navy: #0b1f3a;
+    --navy-light: #163b68;
+    --gold: #c9a227;
+    --gold-light: #f1d77a;
+    --white: #ffffff;
+    --gray: #6b7280;
+    --light-gray: #eef2f7;
+    --shadow: 0 10px 30px rgba(11, 31, 58, 0.12);
+}
+
+/* ===== ส่วนหัวเว็บไซต์ ===== */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 18px 8%;
+    background: rgba(11, 31, 58, 0.96);
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.15);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.logo {
+    color: var(--gold-light);
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    list-style: none;
+}
+
+nav a {
+    position: relative;
+    color: var(--white);
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a::after {
+    position: absolute;
+    right: 0;
+    bottom: -7px;
+    left: 0;
+    height: 2px;
+    content: "";
+    background: var(--gold);
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+nav a:hover {
+    color: var(--gold-light);
+}
+
+nav a:hover::after {
+    transform: scaleX(1);
+}
+
+/* ===== ส่วนแนะนำตัว ===== */
+.hero {
+    display: grid;
+    min-height: 78vh;
+    padding: 90px 8%;
+    place-items: center;
+    text-align: center;
+    color: var(--white);
+    background:
+        linear-gradient(rgba(11, 31, 58, 0.88), rgba(11, 31, 58, 0.94)),
+        linear-gradient(135deg, #163b68, #071426);
+}
+
+.hero h1 {
+    margin-bottom: 14px;
+    color: var(--gold-light);
+    font-size: clamp(2.2rem, 5vw, 4.5rem);
+    line-height: 1.2;
+}
+
+.hero p {
+    max-width: 720px;
+    margin: 0 auto 28px;
+    color: #e5e7eb;
+    font-size: 1.1rem;
+}
+
+/* ===== ปุ่ม ===== */
+.btn {
+    display: inline-block;
+    padding: 12px 26px;
+    border: 2px solid var(--gold);
+    border-radius: 999px;
+    color: var(--navy);
+    font-weight: 700;
+    text-decoration: none;
+    background: var(--gold);
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    color: var(--white);
+    background: transparent;
+    transform: translateY(-3px);
+}
+
+/* ===== ส่วนเนื้อหา ===== */
+section {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 80px 8%;
+}
+
+section h2 {
+    position: relative;
+    margin-bottom: 32px;
+    color: var(--navy);
+    font-size: clamp(1.8rem, 4vw, 2.6rem);
+    text-align: center;
+}
+
+section h2::after {
+    display: block;
+    width: 70px;
+    height: 4px;
+    margin: 12px auto 0;
+    border-radius: 10px;
+    content: "";
+    background: var(--gold);
+}
+
+/* ===== การ์ดผลงาน ===== */
+.cards,
+.projects,
+.activities {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 24px;
+}
+
+.card,
+.project,
+.activity {
+    padding: 26px;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    background: var(--white);
+    box-shadow: var(--shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover,
+.project:hover,
+.activity:hover {
+    box-shadow: 0 16px 35px rgba(11, 31, 58, 0.18);
+    transform: translateY(-8px);
+}
+
+.card h3,
+.project h3,
+.activity h3 {
+    margin-bottom: 10px;
+    color: var(--navy-light);
+}
+
+.card p,
+.project p,
+.activity p {
+    color: var(--gray);
+}
+
+/* ===== รูปภาพ ===== */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 14px;
+}
+
+/* ===== แบบฟอร์มติดต่อ ===== */
+form {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 13px 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    color: #1f2937;
+    font: inherit;
+    background: var(--white);
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: var(--gold);
+    box-shadow: 0 0 0 4px rgba(201, 162, 39, 0.18);
+}
+
+button {
+    cursor: pointer;
+    font: inherit;
+}
+
+/* ===== ส่วนท้ายเว็บไซต์ ===== */
+footer {
+    padding: 28px 8%;
+    color: #dbe4f0;
+    text-align: center;
+    background: var(--navy);
+}
+
+footer a {
+    color: var(--gold-light);
+    text-decoration: none;
+}
+
+/* ===== เอฟเฟกต์แสดงเนื้อหาเมื่อเลื่อน ===== */
+.hidden {
+    opacity: 0;
+    transform: translateY(35px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ===== รองรับหน้าจอขนาดเล็ก ===== */
+@media (max-width: 768px) {
+    header {
+        padding: 15px 5%;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 14px;
+    }
+
+    .hero {
+        min-height: 70vh;
+        padding: 70px 6%;
+    }
+
+    section {
+        padding: 60px 6%;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul {
+        gap: 10px;
+        font-size: 0.9rem;
+    }
+
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .card,
+    .project,
+    .activity {
+        padding: 20px;
+    }
+}
+
+/* ===== ลดการเคลื่อนไหวสำหรับผู้ใช้ที่ตั้งค่าไว้ ===== */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+    }
+}
